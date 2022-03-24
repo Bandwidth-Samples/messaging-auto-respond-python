@@ -94,7 +94,7 @@ response_map = {
 
 
 def auto_response(inbound_text):
-    command = re.search(r"(.\S+)", inbound_text).group(1).lower()
+    command = re.search(r"^(.\S+)$", inbound_text).group(1).lower()
     if command in response_map.keys():
         map_val = response_map[command]
     else:
