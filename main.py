@@ -85,11 +85,11 @@ async def handle_inbound(request: Request):
 
 
 response_map = {
-    'stop': "STOP: OK, you'll no longer receive messages from us.",
-    'quit': "QUIT: OK, you'll no longer receive messages from us.",
-    'help': "Valid words are: STOP, QUIT, HELP, and INFO. Reply STOP or QUIT to opt out.",
-    'info': "INFO: This is the test responder service. Reply STOP or QUIT to opt out.",
-    'default': "Please respond with a valid word. Reply HELP for help."
+    "stop": "STOP: OK, you'll no longer receive messages from us.",
+    "quit": "QUIT: OK, you'll no longer receive messages from us.",
+    "help": "Valid words are: STOP, QUIT, HELP, and INFO. Reply STOP or QUIT to opt out.",
+    "info": "INFO: This is the test responder service. Reply STOP or QUIT to opt out.",
+    "default": "Please respond with a valid word. Reply HELP for help."
 }
 
 
